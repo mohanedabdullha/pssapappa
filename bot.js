@@ -4,7 +4,7 @@ var prefix = "$";
 
 client.on('guildMemberAdd', member=> {
 
-    client.channels.get("506518353855119402").send(`***__ Welcome To Server Magic${member}___***`);
+    client.channels.get("506518353855119402").send(`***__ Welcome To Server Magic___***`);
 
 });
 client.login(process.env.BOT_TOKEN);
